@@ -1,0 +1,12 @@
+* {
+    background-color: grey;
+}
+.encabezado {
+        width: 100%;
+}
+.logo, .escritorio, .pintoso {
+    border: 10px solid darkgray;
+    border-radius: 110px;
+    width: 20%;
+    margin: 50px;
+}

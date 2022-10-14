@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:wght@300&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+#logo_link {
+    padding-top: 5px;
+}
 nav a {
     text-align: center;
-    color: #f4f0bb;
+    color: #d5cfe1;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -16,57 +21,91 @@ nav a {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
-    background-color: #87c38f;
+    background-color: #d5cfe1;
+    margin: 150px 0;
 }
 body {
-    background-color: #f4f0bb;
+    background-color: #eddfef;
+    font-family: "Covered By Your Grace", "Raleway", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
-    background-color: #226f54;
-    color: #f4f0bb;
+    background-color: #464655;
+    color: #eddfef;
 }
-nav a:hover, footer a:hover {
-    background-color: #da2c38;
+nav a:hover {
+    background-color: #94958b;
 }
-footer a {
-    color: #f4f0bb;
-    text-decoration: none;
+footer a:hover {
+    background-color: #464655;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #464655;
 }
 .book {
-    color: #226f54;
+    color: #94958b;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join {
-    color: #f4f0bb;
+    color: #eddfef;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color: #da2c38;
+    background-color: #464655;
 }
 .msg {
-    background-color: #226f54;
-    color: #87c38f;
+    background-color: #94958b;
+    color: #d5cfe1;
+    line-height: 1.5em;
+    padding-top: 10px;
 }
-footer {
-    background-color: #226f54;
-    color: #87c38f;
+.msg p {
+    font-size: 1em;
+    padding-top: 10px;
 }
 .home-title {
-    color: #226f54;
+    color: #464655;
+    font-family: "Covered By Your Grace", "Raleway", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
-h4, h2 {
-    color: #226f54;
+.mountains {
+    padding-bottom: 250px;
+}
+h4 {
+    color: #464655;
+}
+h2 {
+    color: #464655;
+    margin: 0;
 }
 .subtitle {
-    color: #87c38f;
+    color: #464655;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -76,4 +115,17 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+footer {
+    background-color: #94958b;
+    color: #eddfef;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+footer a {
+    color: #eddfef;
+    text-decoration: none;
 }
