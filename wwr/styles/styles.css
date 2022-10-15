@@ -26,11 +26,11 @@ main section img {
 }
 #background {
     height: 725px;
-    background-color: #d5cfe1;
+    background-color: #eddfef;
     margin: 150px 0;
 }
 body {
-    background-color: #eddfef;
+    background-color: #d5cfe1;
     font-family: "Covered By Your Grace", "Raleway", Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
@@ -53,7 +53,8 @@ footer a:hover {
     border: 10px solid #464655;
 }
 .book {
-    color: #94958b;
+    color: #eddfef;
+    background-color: #464655;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -61,25 +62,29 @@ footer a:hover {
     border-radius: 5px;
 }
 .join {
-    color: #eddfef;
+    color: #94958b;
+    background-color: #464655;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
 }
-.book:hover, .join:hover {
-    background-color: #464655;
+.book:hover {
+    background-color: #94958b;
+}
+.join:hover {
+    background-color: #d5cfe1;
 }
 .msg {
     background-color: #94958b;
     color: #d5cfe1;
     line-height: 1.5em;
-    padding-top: 10px;
+    padding: 35px;
 }
 .msg p {
-    font-size: 1em;
-    padding-top: 10px;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 .home-title {
     color: #464655;
@@ -128,4 +133,7 @@ footer .social img {
 footer a {
     color: #eddfef;
     text-decoration: none;
+}
+footer .social img {
+    padding-top: 15px;
 }
