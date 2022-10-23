@@ -37,7 +37,7 @@
 
 /* Activity 2 styles */ 
 .content2 {
-  display: grid;
+  display: flexbox;
   /* This is the parent of the activity 2 boxes. */
 }
 .red2 {
