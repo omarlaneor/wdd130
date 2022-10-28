@@ -111,7 +111,8 @@ footer a:hover {
     background-color: #464655;
     opacity: 90%;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
+    letter-spacing: 2px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -121,7 +122,8 @@ footer a:hover {
     color: #94958b;
     background-color: #464655;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
+    letter-spacing: 2px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
