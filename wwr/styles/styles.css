@@ -243,3 +243,116 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
+/* From here, it starts the "Rivers Page" css*/
+
+.rivers-title {
+    color: #eddfef;
+    font-family: "Covered By Your Grace", "Raleway", Helvetica, sans-serif;
+    font-size: 4em;
+    margin-top: 8px;
+}
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+main section {
+    text-align: center;
+}
+
+.salmon-card {
+    margin: 100px 30px;
+    grid-column: 6/10;
+    grid-row: 1/2;
+
+}
+.desolation-card {
+    margin: 60px 50px 0px 150px;
+    grid-column: 2/6;
+    grid-row: 2/3;
+}
+.grand-card {
+    margin: 30px 50px 0px 50px;
+    grid-column: 6/10;
+    grid-row: 3/4;
+}
+
+.left-img1 {
+    border: 6px solid #464655;
+    width: 80%;
+    box-shadow: 5px 5px 10px #464655;
+    margin: 100px 40px 30px 150px;
+    grid-column: 2/6;
+    grid-row: 1/2;
+}
+
+.right-img {
+    border: 4px solid #464655;
+    width: 80%;
+    box-shadow: 5px 5px 10px #464655;
+    grid-column: 6/10;
+    grid-row: 2/3;
+    margin: 0px 100px 0px 40px;
+}
+
+.left-img2 {
+    border: 4px solid #464655;
+    width: 80%;
+    box-shadow: 5px 5px 10px #464655;
+    margin: 30px 40px 0px 150px;
+    grid-column: 2/6;
+    grid-row: 3/4;
+}
+
+.text1 {
+    text-align: left;
+    margin-right: 100px;
+}
+
+.text2 {
+    text-align: right;
+    
+}
+
+.text3 {
+    grid-column: 6/10;
+    grid-row: 2/3;
+    text-align: left;
+    margin-right: 100px;
+}
+
+.subtitles1, .subtitles3 {
+    text-align: left;
+}
+
+.subtitles2 {
+    text-align: right;
+}
+
+@media screen and (max-width: 900px) {
+    .rivers-grid {
+        display: block;
+        height: auto;
+    }
+    .text1, .text2, .text3 {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .rivers-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .salmon-card, .desolation-card, .grand-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    .left-img1, .right-img, .left-img2 {
+        margin: 50px auto;
+        width: 100%;
+    }
+}
