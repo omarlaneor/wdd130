@@ -132,23 +132,23 @@ h4, h5, h6 {
 
 .home-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-height: fit-content;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 }
 
 .reading {
     border: 6px solid #78d5d7;
-    width: 200%;
+    width: 120%;
     box-shadow: 5px 5px 10px #2081c3;
     border: 40px 40px;
-    margin: 50px 30px 60px 80px;    
+    margin: 14% 10% 14% 30%;    
 }
 
 .reading-pic {
     font-family: Montserrat, Helvetica, sans-serif;
-    margin-top: 10%;
-    grid-column: 3/5;
-    margin: 50px 40px 20px 10px;
+    grid-column: 2/4;
+    margin: 10% 6% 5% 25%;
 }
 .subtitle {
     color: #2081c3;
@@ -172,13 +172,13 @@ h4, h5, h6 {
 .container {
     margin: auto;
     background-color: #bed8d4;
-    width: 800px;
+    width: 1000px;
     padding: 30px;
 }
 
 .slider {
     position: relative;
-    width: 800px;
+    width: 1000px;
     height: 530px;
 }
 
@@ -283,6 +283,8 @@ div.slider:target {
 
 .why-grid {
     display: grid;
+    background-color: #f2f2f2;
+    padding: 2% 0% 0% 0%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
