@@ -308,6 +308,61 @@ div.slider:target {
     margin: 20px 30px 30px 140px; 
 }
 
+
+/* From here, it starts the "About Us? page" css*/
+
+
+.us-grid {
+    display: grid;
+    background-color: #f2f2f2;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: -10px;
+}
+
+.subtitleus {
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #2081c3;
+    text-align: right;
+    grid-column: 3/5;
+    grid-row: 1/2;
+    margin: 10% 20% 0% 20%;
+}
+
+.left-img1 {
+    border: 6px solid #2081c3;
+    width: 50%;
+    box-shadow: 5px 5px 10px #464655;
+    margin: 16% 4% 6% 40%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.right-img {
+    border: 4px solid #2081c3;
+    width: 50%;
+    box-shadow: 5px 5px 10px #464655;
+    grid-column: 3/5;
+    grid-row: 2/3;
+    margin: 10% 20% 4% 30%;
+}
+
+.textus1 {
+    text-align: left;
+    margin: 24% 18% 6% 6%;
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+
+.textus2 {
+    text-align: right;
+    margin: 10% 22% 4% 30%;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    
+}
+
 .icon {
     width: 50px;
     padding-top: 10px;
@@ -331,7 +386,6 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
-
 
 footer a {
     color: #2081c3;
@@ -370,8 +424,6 @@ footer .link {
     background-color: #bed8d4;
     transform: scale(1.4)
 }
-
-
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
